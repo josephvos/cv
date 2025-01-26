@@ -3,6 +3,7 @@ body {
 
   margin: 0;
   padding: 0;
+  background-color: rgb(237, 127, 127);
 }
 
 /* Nav Styles */
@@ -214,3 +215,4 @@ justify-content: center;
   background-color: rgb(111, 129, 218);
   border: 2px solid black;
 }
+
