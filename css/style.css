@@ -1,9 +1,9 @@
 /* General Styles */
 body {
-background-color: rgb(237, 127, 127);
+background-color: #9dc3ea;
   margin: 0;
   padding: 0;
-  background-color: rgb(237, 127, 127);
+ 
 }
 
 /* Nav Styles */
@@ -37,14 +37,14 @@ nav a:hover {
 }
 
 footer {
-  background-color: rgb(150, 135, 135);
-  border: 5px solid rgb(80, 49, 49);
+  background-color: lightgrey;
+  border: 5px solid rgb(18, 11, 11);
   display: flex;
   justify-content: center;
 }
 
 footer a {
-  background-color: rgb(150, 135, 135);
+  background-color: lightgrey;
   text-shadow: 0.5px 0.5px 0.5px rgb(12, 9, 9);
  
 }
@@ -57,19 +57,25 @@ footer a:hover {
 
 /* Splash Section */
 .splash {
-  background-color: rgb(237, 127, 127);
+  background-color: #9dc3ea;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+grid-template-columns: 1 fr;
 }
 
 .splash h1 {
   font-family: "Merriweather", serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
-  color: rgb(51, 2, 2);
+  color: rgb(12, 2, 51);
+  ;
 }
 
 .splash img {
 
   border: 2px solid black;
+  border-radius: 50%;
 }
 
 .splash p {
@@ -77,6 +83,9 @@ footer a:hover {
   font-weight: 400;
   font-style: normal;
   color: rgb(27, 2, 2);
+  justify-content: center;
+  align-items: center;
+  
 }
 
 /* Horizontal Rules */
@@ -89,7 +98,7 @@ hr {
 
 /* Sections */
 section {
-  background-color: rosybrown;
+
 }
 
 /* Section Headings */
@@ -97,7 +106,9 @@ section h2 {
   font-family: "Merriweather", serif;
   font-weight: 400;
   font-style: normal;
-  color: rgb(51, 2, 2);
+  color: rgb(3, 0, 70);
+  text-decoration: underline;
+  margin-left: 2px;
 }
 
 /* Paragraph Styles */
@@ -105,13 +116,13 @@ section p {
   font-family: "Merriweather", serif;
   font-weight: 400;
   font-style: normal;
- 
+  margin: 2px;
   color: rgb(6, 1, 1);
 }
 
 /* link styles */
 section a {
-color: darkgreen;
+color: rgb(37, 3, 115);
   text-decoration: none;
   
   
@@ -131,6 +142,8 @@ dl {
   display: grid;
   grid-template-columns: 2fr 7fr;
  font-size: 99.9%;
+ margin: 2px;
+ gap: 10px;
 }
 dl dt{
   display: grid;
@@ -141,6 +154,23 @@ dl dd{
   grid-template-columns: 2fr 7fr;
 }
 
+.four-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card2 
+{
+  display: grid;
+
+  padding: 5px;
+  background-color: rgb(150, 182, 236);
+  margin: 5px;
+  border: 1px solid black;
+
+height: 300px;
+ 
+}
 /* Project Section */
 .three-col {
 
@@ -149,12 +179,13 @@ dl dd{
 
 }
 
+
 .card 
 {
   display: grid;
   place-items: center;
   padding: 5px;
-  background-color: rgb(232, 168, 168);
+  background-color: rgb(150, 182, 236);
   margin: 5px;
   border: 1px solid black;
  
